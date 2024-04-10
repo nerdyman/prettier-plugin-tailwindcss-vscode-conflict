@@ -1,13 +1,16 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Tailwind Prettier Plugin VS Code Repro
 
-## Getting Started
-
-First, run the development server:
+[https://github.com/tailwindlabs/prettier-plugin-tailwindcss/issues/244](https://github.com/tailwindlabs/prettier-plugin-tailwindcss/issues/244)
 
 ```bash
+# 1. Install deps
 npm run bootstrap
-yarn dev
+# 2. Watch and write files
+yarn prettier:watch-write
+# 3. Open file in VS Code and save it
 ```
+
+---
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
