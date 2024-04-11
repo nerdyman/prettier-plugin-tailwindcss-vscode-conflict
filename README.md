@@ -10,7 +10,7 @@ npm run bootstrap
 
 - Run `yarn prettier:watch-write`
 - Uncomment the `example` colors in the [`tailwind.config.cjs`](./tailwind.config.cjs)
-- Open [`src/components/example.tsx`](./src/components/example.tsx)
+- Open [`src/example.tsx`](./src/example.tsx)
 - Hit save in VS Code
   - VS Code fights with Prettier over the order
 
