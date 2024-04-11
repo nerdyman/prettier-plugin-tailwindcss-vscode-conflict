@@ -3,12 +3,15 @@
 [https://github.com/tailwindlabs/prettier-plugin-tailwindcss/issues/244](https://github.com/tailwindlabs/prettier-plugin-tailwindcss/issues/244)
 
 ```bash
-# 1. Install deps
 npm run bootstrap
-# 2. Watch and write files
-yarn prettier:watch-write
-# 3. Open file in VS Code and save it
 ```
+
+## Repro
+
+- Run `yarn prettier:watch-write`
+- Uncomment the `example` colors in the tailwind config
+- Hit save in VS Code
+  - VS Code fights with Prettier over the order
 
 ---
 
