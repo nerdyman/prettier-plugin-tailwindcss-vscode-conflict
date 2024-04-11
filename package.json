@@ -5,13 +5,9 @@
   "packageManager": "yarn@4.1.1",
   "scripts": {
     "bootstrap": "corepack enable && yarn --immutable",
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
     "prettier:watch-write": "chokidar 'src/**/*.{ts,tsx}' -c \"test '{event}' = 'change' && (prettier --write '{path}')\"",
     "prettier:check": "prettier --check ./src/**/*",
-    "eslint:fix-dry-run": "eslint --fix-dry-run --ext .ts,.tsx ./src",
-    "lint": "next lint"
+    "eslint:fix-dry-run": "eslint --fix-dry-run --ext .ts,.tsx ./src"
   },
   "dependencies": {
     "react": "^18",
